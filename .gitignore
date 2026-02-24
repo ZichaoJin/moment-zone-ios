@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Xcode
+# Build products
+*/build/
+DerivedData/
+
+# User settings
+*.xcuserdatad/
+*.xcuserstate
+xcuserdata/
+
+# Workspace
+*.xcworkspace
+
+# Swift Package Manager
+/.build/
+/.swiftpm
+
+# CocoaPods
+Pods/
+
+# Provisioning and keys
+*.mobileprovision
+*.p12
+*.pem
+*.key
+
+# Environment
+.env
+.env.*
+
+# Editor
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Other
+*.log
