@@ -64,7 +64,7 @@ MemoriesApp/
 - `assetLocalIds: [String]`：Photos 的 localIdentifier，不存图文件  
 - `createdAt`, `updatedAt`  
 
-## 后续可做（未实现）
+## 集成（已实现）
 
 - 已接入： https://github.com/ZichaoJin/character-video-agent.git
   - 说明：本仓库调用 `character-video-agent` 的 API，能够根据 story 文本与自动分出的 events 生成定制角色回忆视频。该 agent 负责角色渲染、配音与场景合成，应用端只需提供故事文本、事件列表与相关媒体 URL，即可获得定制视频输出。
